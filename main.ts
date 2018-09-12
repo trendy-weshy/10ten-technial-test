@@ -8,6 +8,13 @@ const countries: Array<{ [key: string]: any }> = require('./source/countries.jso
 // get translation from CLI arguments
 const translation: string = process.argv.splice(2)[0];
 
+if (!translation || translation.length < 1) {
+    const err = new Error();
+    err.name = 'MissingArgument';
+    err.message = 'Argument not provided, could not complete request.';
+    throw err;
+}
+
 const filteredCountries = countries.filter(country => (country.translations.hasOwnProperty(translation)));
 
 if (filteredCountries.length === 0) {
