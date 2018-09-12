@@ -12,7 +12,7 @@ To install the required dependecies you need to have:
 
 ### Instructions
 
-1. git clone the project
+1. git clone the project `git clone https://github.com/trendy-weshy/10ten-technial-test.git`
 2. install dependencies using `npm install`
 3. compile the typescript code `tsc`
 
