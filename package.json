@@ -1,0 +1,22 @@
+{
+  "name": "10-ten-test",
+  "version": "1.0.0",
+  "description": "Here's the technical test, you will have to write it in typescript",
+  "main": "main.js",
+  "repository": "https://github.com/trendy-weshy/10ten-technial-test.git",
+  "author": "John Waweru",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4"
+  },
+  "engines": {
+    "node": ">=8.11.0",
+    "npm": ">=5.3.0"
+  }
+}

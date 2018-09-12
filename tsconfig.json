@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": false,
+        "target": "es5",
+        "lib": [
+            "es2017",
+            "es5",
+        ],
+        "allowSyntheticDefaultImports": false,
+        "preserveConstEnums": true,
+        "alwaysStrict": true,
+        "pretty": true,
+        "removeComments": false,
+        "module": "commonjs"
+    },
+    "include": [
+      "main.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": false,
+}
