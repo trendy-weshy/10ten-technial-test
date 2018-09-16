@@ -2,10 +2,8 @@
  * created on 12 Sep 2018
  */
 
-import * as fs from 'fs';
-const countries: Array<{ [key: string]: any }> = require('./source/countries.json');
+const countries: Array<{ [key: string]: any }> = require('./countries.json');
 
-// get translation from CLI arguments
 const translation: string = process.argv.splice(2)[0];
 
 if (!translation || translation.length < 1) {
@@ -24,4 +22,5 @@ if (filteredCountries.length === 0) {
     throw err;
 }
 
-console.log(filteredCountries.map(country => (country.translations[translation].official)).join('\n'))
+const output = filteredCountries.map(country => (country.translations[translation].official));
+console.log(output.join('\n'));
