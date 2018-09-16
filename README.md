@@ -8,7 +8,6 @@ To install the required dependecies you need to have:
 
 1. node version >=8.11.0
 2. npm version >=5.3.0
-3. you require to have typescript installed globally. Use the command `npm i -g typescript`
 
 ### Instructions
 
@@ -18,7 +17,7 @@ To install the required dependecies you need to have:
 
 ## How to run
 
-> npm main.js [{ transalation }]
+> node main.js [{ transalation }]
 
 ## Author
 
